@@ -48,9 +48,16 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+if($_SERVER['SERVER_NAME']=='localhost'){
+    $db['default']['username'] = 'root';
+    $db['default']['password'] = '';
+} else {
+    $db['default']['username'] = 'medicine';
+    $db['default']['password'] = 'janeva';
+}
+
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'medicine';
-$db['default']['password'] = 'janeva';
+
 $db['default']['database'] = 'medicine';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
