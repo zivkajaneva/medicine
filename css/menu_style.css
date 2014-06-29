@@ -1,0 +1,84 @@
+.menu
+{
+	float:left;
+	margin-left: :-7px;
+	margin-top:30px;
+	width:15%;
+	min-height: 100%;
+	font-size: 15px;
+	background-image: -ms-linear-gradient(top, #3A9AC3 0%, #176E96 100%); 
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #3A9AC3 0%, #176E96 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #3A9AC3 0%, #176E96 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3A9AC3), color-stop(1, #176E96));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #3A9AC3 0%, #176E96 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #3A9AC3 0%, #176E96 100%);
+}
+
+
+.menu a
+{
+	display: block;
+	width: 98%;
+	padding: 0 2%;
+	height: 30px;
+	padding-top:5px;
+	margin:1px 0;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 3px solid #B1D7FF; 
+	-webkit-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+
+}
+
+.menu a:hover
+{
+	background-color:#487BE1;
+	box-shadow:0 0 15px -1px blue;
+	width: 96%;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.menu #logout{
+	width: 96%;
+	background-color: #E55A5D;
+	border-bottom: 3px solid red;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+
+}
+.menu #logout:hover{
+	box-shadow: 0 0 20px -3px red;
+	background-color: #A11D2A;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.menu ul{
+
+	background-color: #B5E2FF;
+}
+
